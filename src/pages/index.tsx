@@ -1,17 +1,24 @@
 import React from 'react';
 import Head from 'next/head';
 
-const Hero: React.FC = () => {
+import Header from '@components/Header';
+import { Container, Description, Subtitle, Title } from 'src/styles/pages/Hero';
+
+const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Head>
         <title>Francyleo Matos - Portfolio</title>
       </Head>
-      <main>
-        <h1>Hello next app</h1>
-      </main>
-    </div>
+      <Header />
+      <Subtitle>desenvolvedor full-stack</Subtitle>
+      <Title>Francyleo Matos</Title>
+      <Description>
+        Sempre atualizado com a novas tecnologias do mercado
+      </Description>
+      {/* <SideLines /> */}
+    </Container>
   );
 };
 
-export default Hero;
+export default Home;

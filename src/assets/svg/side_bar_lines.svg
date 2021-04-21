@@ -1,0 +1,29 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.76 580.41">
+
+<defs>
+
+<style>.cls-1,.cls-2,.cls-3,.cls-4{fill:none;stroke-miterlimit:10;}.cls-1,.cls-3,.cls-4{stroke-width:3px;}.cls-1{stroke:url(#linear-gradient);}.cls-2{stroke:#ccaf15;stroke-width:2px;}.cls-3{stroke:url(#linear-gradient-2);}.cls-4{stroke:url(#linear-gradient-3);}
+</style>
+<linearGradient id="linear-gradient" x1="23.57" y1="580.41" x2="23.57" y2="173.49" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#fff" stop-opacity="0"/>
+<stop offset="0.7" stop-color="#ccaf15"/>
+</linearGradient>
+<linearGradient id="linear-gradient-2" x1="200.79" y1="690.79" x2="200.79" y2="555.25" gradientTransform="translate(241.28 690.79) rotate(180)" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#fff" stop-opacity="0"/>
+<stop offset="1" stop-color="#ccaf15"/>
+</linearGradient>
+<linearGradient id="linear-gradient-3" x1="233.41" y1="665.95" x2="233.41" y2="506.95" gradientTransform="translate(241.28 690.79) rotate(180)" xlink:href="#linear-gradient"/>
+</defs>
+<title>Asset 12
+</title>
+<polyline class="cls-1" points="17.8 580.41 17.8 227.44 29.34 221.9 29.34 173.49"/>
+<path class="cls-2" d="M29.34,173.49a5.41,5.41,0,1,0-5.41-5.4A5.41,5.41,0,0,0,29.34,173.49Z"/>
+<polyline class="cls-3" points="46.26 0 46.26 117.57 34.72 119.42 34.72 135.54"/>
+<path class="cls-2" d="M34.72,135.54A5.41,5.41,0,1,0,40.13,141,5.41,5.41,0,0,0,34.72,135.54Z"/>
+<polyline class="cls-4" points="11.42 24.84 11.42 162.76 4.32 164.93 4.32 183.84"/>
+
+<path class="cls-2" d="M4.32,183.84a3.33,3.33,0,1,0,3.33,3.32A3.32,3.32,0,0,0,4.32,183.84Z"/>
+
+
+</svg>
