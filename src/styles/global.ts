@@ -8,8 +8,9 @@ export default createGlobalStyle`
   }
 
   body {
-    font-family: Poppins, sans-serif;
     color: ${props => props.theme.color};
+    font-family: Poppins, sans-serif;
+    font-weight: ${props => props.theme.text.weight.regular};
   }
 
 `;

@@ -8,11 +8,18 @@ const theme = {
   color: '#FFF',
 
   text: {
-    xs: '16px',
-    sm: '24px',
-    md: '36px',
-    lg: '54px',
-    xg: '81px',
+    size: {
+      xs: '16px',
+      sm: '24px',
+      md: '36px',
+      lg: '54px',
+      xg: '81px',
+    },
+    weight: {
+      regular: '400',
+      bold: '700',
+      black: '900',
+    },
   },
 };
 

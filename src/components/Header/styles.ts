@@ -21,8 +21,9 @@ export const Logo = styled.div`
   cursor: pointer;
 
   text-transform: uppercase;
-  font-weight: bold;
   color: ${props => props.theme.color};
+  font-weight: ${props => props.theme.text.weight.bold};
+  font-size: ${props => props.theme.text.size.sm};
 `;
 
 export const Menu = styled.ul`
@@ -35,15 +36,15 @@ export const Menu = styled.ul`
 export const Item = styled.li`
   position: relative;
   text-transform: uppercase;
-  font-weight: bold;
   cursor: pointer;
   color: ${props => props.theme.color};
+  font-weight: ${props => props.theme.text.weight.bold};
 
   &::after {
     content: '';
     position: absolute;
     width: 0;
-    height: 3px;
+    height: 2px;
     left: 0;
     bottom: -2px;
     background: ${props => props.theme.secondary};
