@@ -5,7 +5,11 @@ const theme = {
   gold: '#CCAF15',
   dark: '#000',
 
-  color: '#FFF',
+  // Social colors
+  linkedin: '#0077B5',
+  github: '#f5f5f5',
+  instagram: '#e4405f',
+  google: '#dd4b39',
 
   text: {
     size: {

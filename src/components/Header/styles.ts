@@ -37,7 +37,7 @@ export const Item = styled.li`
   position: relative;
   text-transform: uppercase;
   cursor: pointer;
-  color: ${props => props.theme.color};
+  font-size: ${props => props.theme.text.size.sm};
   font-weight: ${props => props.theme.text.weight.bold};
 
   &::after {

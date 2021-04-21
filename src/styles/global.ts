@@ -8,9 +8,8 @@ export default createGlobalStyle`
   }
 
   body {
-    color: ${props => props.theme.color};
+    color: #fff;
     font-family: Poppins, sans-serif;
     font-weight: ${props => props.theme.text.weight.regular};
   }
-
 `;

@@ -10,9 +10,9 @@ export const Container = styled.main`
 
 export const Subtitle = styled.h3`
   text-transform: uppercase;
-  font-weight: bold;
   color: ${props => props.theme.secondary};
   font-size: ${props => props.theme.text.size.sm};
+  font-weight: ${props => props.theme.text.weight.bold};
 `;
 
 export const Title = styled.h1`
@@ -24,9 +24,60 @@ export const Title = styled.h1`
 
 export const Description = styled.p`
   margin-top: 10px;
-  font-size: ${props => props.theme.text.size.xs};
+  font-size: ${props => props.theme.text.size.sm};
+  font-weight: ${props => props.theme.text.weight.regular};
 `;
 
-export const HeroImg = styled.img``;
+export const Social = styled.div`
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 50px;
 
-export const LineImg = styled.img``;
+  a {
+    color: #fff;
+    transition: 200ms;
+
+    &:hover {
+      transform: scale(1.1);
+
+      &:nth-child(1) {
+        color: ${props => props.theme.linkedin};
+      }
+
+      &:nth-child(2) {
+        color: ${props => props.theme.github};
+      }
+
+      &:nth-child(3) {
+        color: ${props => props.theme.instagram};
+      }
+
+      &:nth-child(4) {
+        color: ${props => props.theme.google};
+      }
+    }
+
+    & + a {
+      margin-top: 20px;
+    }
+  }
+`;
+
+export const HeroWrapper = styled.div`
+  svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+  }
+`;
+
+export const LineWrapper = styled.div`
+  svg {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    height: 80%;
+  }
+`;
