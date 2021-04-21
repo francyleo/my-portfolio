@@ -12,18 +12,19 @@ export const Subtitle = styled.h3`
   text-transform: uppercase;
   font-weight: bold;
   color: ${props => props.theme.secondary};
-  font-size: ${props => props.theme.text.sm};
+  font-size: ${props => props.theme.text.size.sm};
 `;
 
 export const Title = styled.h1`
-  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-weight: ${props => props.theme.text.weight.bold};
+  font-size: ${props => props.theme.text.size.lg};
   margin-top: 4px;
-  font-size: ${props => props.theme.text.lg};
 `;
 
 export const Description = styled.p`
   margin-top: 10px;
-  font-size: ${props => props.theme.text.xs};
+  font-size: ${props => props.theme.text.size.xs};
 `;
 
 export const HeroImg = styled.img``;
